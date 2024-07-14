@@ -18,3 +18,6 @@ function MainMenuMove(){
     location.replace("Index.html")
 }
 
+function SpriteMove(){
+    location.replace("Placeholder showcase.html")
+}
