@@ -19,5 +19,9 @@ function MainMenuMove(){
 }
 
 function SpriteMove(){
-    location.replace("Placeholder showcase.html")
+    location.replace("KOA sprite showcase.html")
+}
+
+function ModelMove(){
+    location.replace("Xpress Model Showcase.html")
 }
