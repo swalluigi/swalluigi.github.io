@@ -19,7 +19,7 @@ function MainMenuMove(){
 }
 
 function SpriteMove(){
-    location.replace("KOA sprite showcase.html")
+    location.replace("KOASpriteShowcase.html")
 }
 
 function ModelMove(){
