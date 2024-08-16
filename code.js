@@ -14,6 +14,10 @@ function PortfolioMove(){
     location.replace("Portfolio.html")
 }
 
+function SIPmove(){
+    location.replace("SIP.html")
+}
+
 function MainMenuMove(){
     location.replace("Index.html")
 }
