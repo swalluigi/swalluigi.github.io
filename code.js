@@ -21,7 +21,7 @@ function SIPmove(){
 }
 
 function AboutMeMove(){
-    location.replace("Index.html")
+    location.replace("AboutMe.html")
 }
 
 function SpriteMove(){
