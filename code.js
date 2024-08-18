@@ -6,6 +6,9 @@ function ObjectiveMove2(){
     location.replace("Objectives 2.html")
 }
 
+function StatementMove(){
+    location.replace("CommunityStatement.html")
+}
 
 
 

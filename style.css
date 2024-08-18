@@ -42,7 +42,7 @@ border-color: turquoise;
     }
 
     .logoDiv {
-        align-items: right;
+        align-items: left;
     }
 
     .lgerButton {
@@ -59,3 +59,20 @@ border-color: turquoise;
     
 }
 
+#wrap {
+    float: left;
+    position: relative;
+    left: 50%;
+    padding: 20px;
+    
+}
+
+#content {
+    padding-left: 200px;
+    padding-right: 200px;
+    float: left;
+    position: relative;
+    left: -50%;
+    font-size: larger;
+    
+}
