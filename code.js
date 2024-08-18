@@ -20,7 +20,7 @@ function SIPmove(){
     location.replace("SIP.html")
 }
 
-function AboutMeMoveMove(){
+function AboutMeMove(){
     location.replace("Index.html")
 }
 
