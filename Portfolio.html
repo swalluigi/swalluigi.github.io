@@ -13,9 +13,11 @@
   
 }
 
+
 .ProjDiv {
-  border: 5px outset red;
-  background-color: lightblue;
+    float: left;
+  clear: both;
+  overflow: hidden;
 }
 
 .PDiv{
@@ -28,37 +30,58 @@
 </head>
 
 <body>
-    <button onclick="ObjectiveMove();" >
-        Boards Objectives
-    </button>
-    <br>
-    
-    <button onclick="MainMenuMove();" >
-        Main Menu
-    </button>
-    <br>
-    
-    <button onclick="AboutMeMove();" >
-        About Me
-    </button>
+   
+    <img src="logo.png" width="350" height="100" align="right" align="top">
+      
+  <br>
+  <br>
+  <br>
+  <br> 
+  <br>
+  <br>
+    <div class="BtnContain ">
+       
+            <button class="lgerButton" onclick="ObjectiveMove();" >
+                Boards Objectives
+            </button>  
+        
+       
+        <br>
+        
+            <button class="lgerButton" onclick="SIPmove();" >
+                SIP
+            </button>   
+       
+        <br>
+     
+            <button class="lgerButton" onclick="AboutMeMove();" >
+                About Me
+            </button> 
+       
 
-    <button onclick="PortfolioMove();" >
-        Portfolio
-    </button>
-    <br>
+    </div>
+   <br>
+   <br>
+   <br>
+
+   
+
+
 
     <center>
+        
         <h1>
             Portfolio
         </h1>
-    </center>
    
+    </center>
+
 
     <!-- Dungeon Xpress  -->
+     <div class="div">
     <h2>Production Studio: Dungeon Xpress</h2>
     <div class="div">
-       <video width="500" height="240" controls>
-           <source src="gunther_combo.mp4" type="video/mp4">
+        <img src="Xpress_Garden_Wall.PNG" width="500" height="500">
 
     </div>
     
@@ -68,9 +91,15 @@
     <button class="lgbutton" onclick=" ModelMove()">Model showcase</button>
     <br>
     <br>
-    <div class="PDiv">While I'm no longer apart of the project anymore, Ryland Kelly is still continuing its development. The game currently has a demo on <a href="https://www.youtube.com/@jazzboi_9026">Itch.io</a> and you can also view dev logs for the game on <a href="https://jazz-boy.itch.io/knock-out-arcade">Ryland's youtube channel</a>  </div>
    
+    <div class="PDiv">Although I haven't worked on the project since my first Production Studio ended, Alec Carter is still working on the game. I recommend to take a look at his <a href="https://www.linkedin.com/in/alec-g-carter/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkdIn</a> for updates on Dungeon Xpress.</div>   
+</div>
+<br>
+<br>
+
+
     <!-- Knockout Arcade  -->
+     <div class="div">
      <h2>Production Studio: KNOCK-OUT ARCADE</h2>
      <div class="div">
         <video width="500" height="240" controls>
@@ -85,7 +114,8 @@
      <button class="lgbutton" onclick="SpriteMove()">Placeholder showcase</button>
      <br>
      <br>
-     <div class="PDiv">While I'm no longer apart of the project anymore, Ryland Kelly is still continuing its development. The game currently has a demo on <a href="https://www.youtube.com/@jazzboi_9026">Itch.io</a> and you can also view dev logs for the game on <a href="https://jazz-boy.itch.io/knock-out-arcade">Ryland's youtube channel</a>  </div>
+     <div class="PDiv">While I'm no longer apart of the project anymore, Ryland Kelly is still continuing its development. The game currently has a demo on <a href="https://jazz-boy.itch.io/knock-out-arcade">Itch.io</a> and you can also view dev logs for the game on <a href="https://www.youtube.com/@jazzboi_9026">Ryland's youtube channel.</a>  </div>
+    </div>
      <!-- Knockout Arcade  -->
      
 

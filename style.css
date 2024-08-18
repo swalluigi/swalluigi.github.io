@@ -37,6 +37,23 @@ border-color: turquoise;
     
     }
 
+    .BtnContain {
+        display: flex;
+    }
+
+    .logoDiv {
+        align-items: right;
+    }
+
+    .lgerButton {
+        width: 400px; 
+        height: 100px;
+        background-color: white;
+        padding: 10px 24px;
+        flex-basis: 33%;
+        border-color: turquoise;
+        
+        }
 #objTitle{
     font-size: x-large;
     
